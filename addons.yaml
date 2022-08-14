@@ -3,7 +3,7 @@ microk8s-addons:
   addons:
     - name: "cert-manager"
       description: "For creating and assigned SSL/TSL certs"
-      version: "1.0.0"
+      version: "1.9.1"
       check_status: "deployment.apps/cert-manager"
       supported_architectures:
         - arm64
